@@ -1,0 +1,332 @@
+html {
+  font-family: Arial,Helvetica,sans-serif;
+  line-height: 1.7em;
+  letter-spacing: 0px;
+  height: 100%;
+  overflow: hidden;
+}
+@font-face{
+  font-family: Aver;
+  src: url("Fonts/Aver.ttf");
+}
+@font-face{
+  font-family: Ekkamai;
+  src: url("Fonts/Ekkamai.ttf");
+}
+@font-face{
+  font-family: Luna;
+  src: url("Fonts/Luna.ttf");
+}
+#scroll{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  height: 50px;
+  width: 50px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 60px;
+  -webkit-border-radius:60px;
+  -moz-border-radius:60px;
+}
+#scroll span{
+  position: absolute;
+  top:50%;
+  left: 47%;
+  margin-left: -6px;
+  margin-top: -12px;
+  border: 8px solid transparent;
+  border-bottom-color: white;
+}
+#scroll:hover{
+  background: rgba(255, 255, 255, 0.3);
+  color: green;
+  transform:scale(1.1);
+}
+body {
+  background-color: #282828;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+header {
+  position: fixed;
+  width: 100%;
+  height: 130px;
+  margin: 0;
+  padding: 0;
+}
+#headerbg {
+  background-color: rgba(0,0,0,0.4);
+  height: 110px;
+}
+#header-wrapper {
+  width: 960px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+content {
+  width: 100%;
+  height: 6680px;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#content-wrap {
+  background: #282828;
+  width: 100%;
+  height: 6680px;
+}
+footer {
+  background: #141414;
+  width: 100%;
+  height: 250px;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+#footer-wrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+#nav {
+  width:1000px;
+  margin:0 auto;
+  list-style: none;
+}
+.topnav {
+  background-color: none;
+  overflow: hidden;
+}
+.topnav a {
+  margin-top: 30px;
+  display:block;
+  width:150px;
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px 0px;
+  text-decoration: none;
+  font: normal normal 700 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+.topnav a.active {
+  background-color: none;
+  color: #cdc1b1;
+  transform: scale(1.2);
+}
+#sym{
+  outline: 3px solid white;
+  margin-top: 34px;
+  margin-left: 10px;
+  margin-right: 10px; 
+  display:block;
+  width: 100px;
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 6px 3px;
+  text-decoration: none;
+  font-size: 22px;
+}
+#tg{
+  margin-top: 36px;
+  margin-left: 23px;
+  display:block;
+  width:250px;
+  float: left;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  font: normal normal 500 25px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+#footsize{
+  background: #141414;
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+#lfoot{
+  width: 600px;
+  height: 100%;
+  float: left;
+}
+#rfoot{
+  width: 400px;
+  height: 100%;
+  float: right;
+}
+#lfi{
+  padding-top: 50px;
+  padding-left: 100px;
+  width: 500px;
+  height: 200px;
+}
+#rfi{
+  padding-top: 50px;
+  padding-right: 100px;
+  width: 300px;
+  height: 200px;
+}
+#conin{
+  font-size: 15px;
+  letter-spacing: 0.6em;
+  color: #D5D5D5;
+}
+#tel{
+  padding-top: 35px;
+  float: left;
+  font-size: 13px;
+  color: #D5D5D5;
+  width: 225px;
+}
+#home {
+  float: right;
+  padding-right: 75px;
+  padding-top: 35px;
+  font-size: 12px;
+  color: #D5D5D5;
+  width: 200px
+}
+#cpr {
+  padding-top: 130px;
+  color: #D5D5D5;
+  font-size: 13px;
+}
+#fb {
+  background: #3B5998;
+  width: 100%;
+  height: 40px;
+  color: #FFFFFF;
+  text-align: center;
+  font: normal normal 700 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+#ln {
+  background: #228B22;
+  width: 100%;
+  height: 40px;
+  color: #FFFFFF;
+  text-align: center;
+  font: normal normal 700 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+#ig {
+  width: 100%;
+  height: 40px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #b3003b;
+  font: normal normal 700 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+.fol{
+  padding-top: 8px;
+  margin: 13px 0;
+}
+#rfoot a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font: normal normal 700 16px/1.4em avenir-lt-w01_35-light1475496,sans-serif;
+}
+#parallax {
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+}
+#parallax p {
+  margin-top: -100px;
+}
+#parallax, #parallax:before {
+  background: 50% 50% / cover;
+}
+#parallax::before {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  background-image: url("Pics/sm.jpg");
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  min-height: 100vh;
+}
+#parallax p {
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+  line-height: 2em;
+  margin: 0;
+  padding: 1em 0;
+  font-family: Ekkamai;
+  padding: 20vw 0 5vw; 
+  font-family: Luna;
+  font-size: 80px;
+  color: #ffffff;
+}
+.box {
+  padding-top: 120px;
+  height: 1000px;
+}
+.num {
+  height: 100px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Luna;
+  color: white;
+}
+.name2 {
+  height: 100px;
+  text-align: center;
+  font-size: 60px;
+  font-family: Ekkamai;
+  color: #D2B48C;
+}
+.about {
+  width: 1000px;
+  margin: 0 auto;
+  height: 140px;
+  font-size: 20px;
+  line-height: 1.2em;
+  font-family: Arial;
+  color: white;
+}
+.contact {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100px;
+  font-size: 20px;
+  font-family: Arial;
+  color: white;
+}
+.pics {
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
+}
+.img {
+  width: 800px;
+  height: 500px;
+}
+#pic1{background-image: url(Pics/201.jpg);background-size: cover;}
+#pic2{background-image: url(Pics/202.jpg);background-size: cover;}
+#pic3{background-image: url(Pics/203.jpg);background-size: cover;}
+#pic4{background-image: url(Pics/204.jpg);background-size: cover;}
+#pic5{background-image: url(Pics/205.jpg);background-size: cover;}
+#pic6{background-image: url(Pics/206.jpg);background-size: cover;}
+#pic7{background-image: url(Pics/207.jpg);background-size: cover;}
+#pic8{background-image: url(Pics/208.jpg);background-size: cover;}
+#pic9{background-image: url(Pics/209.jpg);background-size: cover;}
+#pic10{background-image: url(Pics/210.jpg);background-size: cover;}
