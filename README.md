@@ -6,11 +6,11 @@ This website made for represent Rayong province about travelling places, accommo
 
 Rayong website is a mini project of MULTIMEDIA TECHNOLOGY subject ( 06016311 ) under the topic of "Website that represent each province".
 
-## Developing
+## Development
 
 HTML & CSS (No Framework)
 
-## Member
+## Members
 
 - 60070035 Teeraphon Jirachanchai
 - 60070064 Pittawas Choochuer
